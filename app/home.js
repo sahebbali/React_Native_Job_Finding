@@ -41,7 +41,7 @@ const Home=()=>{
               }
             }}
           />
-
+                 <Popularjobs />
              </View>
            </ScrollView>
         </SafeAreaView>
