@@ -8,10 +8,10 @@ const useFetch = (endpoint, query) => {
 //https://search-engine-api.p.rapidapi.com/SearchGateway/basic-search
   const options = {
     method: "GET",
-    url: `https://search-engine-api.p.rapidapi.com/SearchGateway/basic-search`,
+    url: `https://jsearch.p.rapidapi.com/${endpoint}`,
     headers: {
       'X-RapidAPI-Key': '4440fa057cmshb57fee5f1789d55p19c6a4jsn4aff96b18067',
-    'X-RapidAPI-Host': 'search-engine-api.p.rapidapi.com'
+    'X-RapidAPI-Host': 'jsearch.p.rapidapi.com'
     },
     params: { ...query },
   };
